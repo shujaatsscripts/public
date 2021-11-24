@@ -2,8 +2,9 @@
     pipeline {
         agent any
         parameters {
+		string(name: "above", description: '')
             $class: checkboxParameter name: 'Applications', format: 'JSON', protocol: 'FILE_PATH', description: '', uri:'/var/lib/jenkins/workspace/custom-checkbox-plugin/apps.json' 
-            
+            string(name: "below", description: '')
         }
         stages {
             stage('Applications') {
