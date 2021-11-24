@@ -1,0 +1,7 @@
+{"CheckboxParameter": [
+    {"key": "Spark","value": "Spark"},
+    {"key": "Hive","value": "Hive"},
+    {"key": "Hadoop","value": "Hadoop"},
+    {"key": "Tez","value": "Tez"}
+]
+}
